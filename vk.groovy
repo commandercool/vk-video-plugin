@@ -1,10 +1,13 @@
-import java.net.URL;
-import java.net.URLEncoder
-
-import org.serviio.library.metadata.*
 import org.serviio.library.online.*
 import groovy.json.*
 
+
+/**
+* <h1>vk.com Serviio plugin</h1>
+* 
+* @version 1
+* @author commandercool
+*/
 
 class Vk extends WebResourceUrlExtractor {
 
