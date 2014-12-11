@@ -13,10 +13,14 @@
 For more information you can refer to the official [online content management manual page] (http://www.serviio.org/component/content/article/10-uncategorised/42-online-content-management#plugins)
 
 ## Some notes
-* **Supported link type** - For now only links like:
+* **Supported link type** - Any links like:
  
 > http://vk.com/video{user-id}_{video-id}
 
-are supported. This means you can only add videos from public pages, but not from the search results.
+or
+
+> http://vk.com/video?q={search-request}&section=search&z={user-id}_{video-id}
+
+are supported. This means you can either add videos from public pages, or from the search results.
 * **Supported players** - Only videos playing in a native vk.com player are supported. Imbedded players (e.g. from youtube or other services) are not supported. So make sure you are adding a valid video.
 
